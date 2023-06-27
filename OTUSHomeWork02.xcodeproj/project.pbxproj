@@ -11,6 +11,7 @@
 		CABEB6182A484D3800258C60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB6172A484D3800258C60 /* ContentView.swift */; };
 		CABEB61A2A484D3A00258C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABEB6192A484D3A00258C60 /* Assets.xcassets */; };
 		CABEB61D2A484D3A00258C60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABEB61C2A484D3A00258C60 /* Preview Assets.xcassets */; };
+		CABEB6632A4ADCFE00258C60 /* MediaStackAPI in Frameworks */ = {isa = PBXBuildFile; productRef = CABEB6622A4ADCFE00258C60 /* MediaStackAPI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CABEB6172A484D3800258C60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CABEB6192A484D3A00258C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CABEB61C2A484D3A00258C60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CABEB6602A4ADCE200258C60 /* MediaStackAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MediaStackAPI; path = Modules/MediaStackAPI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABEB6632A4ADCFE00258C60 /* MediaStackAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +38,10 @@
 		CABEB6092A484D3700258C60 = {
 			isa = PBXGroup;
 			children = (
+				CABEB6602A4ADCE200258C60 /* MediaStackAPI */,
 				CABEB6142A484D3800258C60 /* OTUSHomeWork02 */,
 				CABEB6132A484D3800258C60 /* Products */,
+				CABEB6612A4ADCFE00258C60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +72,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CABEB6612A4ADCFE00258C60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +95,9 @@
 			dependencies = (
 			);
 			name = OTUSHomeWork02;
+			packageProductDependencies = (
+				CABEB6622A4ADCFE00258C60 /* MediaStackAPI */,
+			);
 			productName = OTUSHomeWork02;
 			productReference = CABEB6122A484D3800258C60 /* OTUSHomeWork02.app */;
 			productType = "com.apple.product-type.application";
@@ -273,8 +288,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +316,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +352,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CABEB6622A4ADCFE00258C60 /* MediaStackAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MediaStackAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CABEB60A2A484D3700258C60 /* Project object */;
 }
