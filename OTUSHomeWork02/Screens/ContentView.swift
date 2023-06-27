@@ -5,17 +5,18 @@
 //  Created by anduser on 25.06.2023.
 //
 
+import MediaStackAPI
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavStack(
+            transition: .custom(.moveAndFade),
+            easing: .easeInOut
+        ) {
+           DashboardScreen()
         }
-        .padding()
     }
 }
 

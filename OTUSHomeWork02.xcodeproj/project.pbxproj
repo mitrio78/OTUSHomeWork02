@@ -8,19 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		CABEB6162A484D3800258C60 /* OTUSHomeWork02App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB6152A484D3800258C60 /* OTUSHomeWork02App.swift */; };
-		CABEB6182A484D3800258C60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB6172A484D3800258C60 /* ContentView.swift */; };
 		CABEB61A2A484D3A00258C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABEB6192A484D3A00258C60 /* Assets.xcassets */; };
 		CABEB61D2A484D3A00258C60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABEB61C2A484D3A00258C60 /* Preview Assets.xcassets */; };
 		CABEB6632A4ADCFE00258C60 /* MediaStackAPI in Frameworks */ = {isa = PBXBuildFile; productRef = CABEB6622A4ADCFE00258C60 /* MediaStackAPI */; };
+		CABEB6682A4AF17C00258C60 /* Anytransition+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB6662A4AF17C00258C60 /* Anytransition+Ext.swift */; };
+		CABEB6692A4AF17C00258C60 /* RandomAccessCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB6672A4AF17C00258C60 /* RandomAccessCollection+Ext.swift */; };
+		CABEB66F2A4AF18800258C60 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB66B2A4AF18800258C60 /* NewsCell.swift */; };
+		CABEB6702A4AF18800258C60 /* HeadlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB66C2A4AF18800258C60 /* HeadlineView.swift */; };
+		CABEB6712A4AF18800258C60 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB66D2A4AF18800258C60 /* LoaderView.swift */; };
+		CABEB6722A4AF18800258C60 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB66E2A4AF18800258C60 /* LinkView.swift */; };
+		CABEB67E2A4AF19900258C60 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB6742A4AF19900258C60 /* NewsListViewModel.swift */; };
+		CABEB67F2A4AF19900258C60 /* NewsDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB6762A4AF19900258C60 /* NewsDetailsScreen.swift */; };
+		CABEB6802A4AF19900258C60 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB6782A4AF19900258C60 /* DashboardScreen.swift */; };
+		CABEB6812A4AF19900258C60 /* SegmentedControlScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB67A2A4AF19900258C60 /* SegmentedControlScreen.swift */; };
+		CABEB6822A4AF19900258C60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB67B2A4AF19900258C60 /* ContentView.swift */; };
+		CABEB6832A4AF19900258C60 /* NewsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB67D2A4AF19900258C60 /* NewsListScreen.swift */; };
+		CABEB6862A4B094600258C60 /* NavStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB6852A4B094600258C60 /* NavStack.swift */; };
+		CABEB6892A4B094D00258C60 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB6882A4B094D00258C60 /* Categories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CABEB6122A484D3800258C60 /* OTUSHomeWork02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTUSHomeWork02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABEB6152A484D3800258C60 /* OTUSHomeWork02App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTUSHomeWork02App.swift; sourceTree = "<group>"; };
-		CABEB6172A484D3800258C60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CABEB6192A484D3A00258C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CABEB61C2A484D3A00258C60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CABEB6602A4ADCE200258C60 /* MediaStackAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MediaStackAPI; path = Modules/MediaStackAPI; sourceTree = "<group>"; };
+		CABEB6662A4AF17C00258C60 /* Anytransition+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Anytransition+Ext.swift"; sourceTree = "<group>"; };
+		CABEB6672A4AF17C00258C60 /* RandomAccessCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RandomAccessCollection+Ext.swift"; sourceTree = "<group>"; };
+		CABEB66B2A4AF18800258C60 /* NewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		CABEB66C2A4AF18800258C60 /* HeadlineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadlineView.swift; sourceTree = "<group>"; };
+		CABEB66D2A4AF18800258C60 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		CABEB66E2A4AF18800258C60 /* LinkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		CABEB6742A4AF19900258C60 /* NewsListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
+		CABEB6762A4AF19900258C60 /* NewsDetailsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailsScreen.swift; sourceTree = "<group>"; };
+		CABEB6782A4AF19900258C60 /* DashboardScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
+		CABEB67A2A4AF19900258C60 /* SegmentedControlScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlScreen.swift; sourceTree = "<group>"; };
+		CABEB67B2A4AF19900258C60 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CABEB67D2A4AF19900258C60 /* NewsListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListScreen.swift; sourceTree = "<group>"; };
+		CABEB6852A4B094600258C60 /* NavStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavStack.swift; sourceTree = "<group>"; };
+		CABEB6882A4B094D00258C60 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		CABEB68D2A4B0B2700258C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +83,14 @@
 		CABEB6142A484D3800258C60 /* OTUSHomeWork02 */ = {
 			isa = PBXGroup;
 			children = (
+				CABEB68D2A4B0B2700258C60 /* Info.plist */,
+				CABEB68A2A4B099400258C60 /* ViewModel */,
+				CABEB6872A4B094D00258C60 /* Models */,
+				CABEB6842A4B094600258C60 /* NavStack */,
+				CABEB6642A4AF17C00258C60 /* Util */,
+				CABEB66A2A4AF18800258C60 /* Views */,
+				CABEB6732A4AF19900258C60 /* Screens */,
 				CABEB6152A484D3800258C60 /* OTUSHomeWork02App.swift */,
-				CABEB6172A484D3800258C60 /* ContentView.swift */,
 				CABEB6192A484D3A00258C60 /* Assets.xcassets */,
 				CABEB61B2A484D3A00258C60 /* Preview Content */,
 			);
@@ -77,6 +110,102 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CABEB6642A4AF17C00258C60 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB6652A4AF17C00258C60 /* Extensions */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		CABEB6652A4AF17C00258C60 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB6662A4AF17C00258C60 /* Anytransition+Ext.swift */,
+				CABEB6672A4AF17C00258C60 /* RandomAccessCollection+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CABEB66A2A4AF18800258C60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB66B2A4AF18800258C60 /* NewsCell.swift */,
+				CABEB66C2A4AF18800258C60 /* HeadlineView.swift */,
+				CABEB66D2A4AF18800258C60 /* LoaderView.swift */,
+				CABEB66E2A4AF18800258C60 /* LinkView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CABEB6732A4AF19900258C60 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB6752A4AF19900258C60 /* NewsDetailsScreen */,
+				CABEB6772A4AF19900258C60 /* Dashboard */,
+				CABEB6792A4AF19900258C60 /* SegmentedControlScreen */,
+				CABEB67B2A4AF19900258C60 /* ContentView.swift */,
+				CABEB67C2A4AF19900258C60 /* NewsList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CABEB6752A4AF19900258C60 /* NewsDetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB6762A4AF19900258C60 /* NewsDetailsScreen.swift */,
+			);
+			path = NewsDetailsScreen;
+			sourceTree = "<group>";
+		};
+		CABEB6772A4AF19900258C60 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB6782A4AF19900258C60 /* DashboardScreen.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		CABEB6792A4AF19900258C60 /* SegmentedControlScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB67A2A4AF19900258C60 /* SegmentedControlScreen.swift */,
+			);
+			path = SegmentedControlScreen;
+			sourceTree = "<group>";
+		};
+		CABEB67C2A4AF19900258C60 /* NewsList */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB67D2A4AF19900258C60 /* NewsListScreen.swift */,
+			);
+			path = NewsList;
+			sourceTree = "<group>";
+		};
+		CABEB6842A4B094600258C60 /* NavStack */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB6852A4B094600258C60 /* NavStack.swift */,
+			);
+			path = NavStack;
+			sourceTree = "<group>";
+		};
+		CABEB6872A4B094D00258C60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB6882A4B094D00258C60 /* Categories.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CABEB68A2A4B099400258C60 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CABEB6742A4AF19900258C60 /* NewsListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +281,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CABEB6182A484D3800258C60 /* ContentView.swift in Sources */,
+				CABEB6692A4AF17C00258C60 /* RandomAccessCollection+Ext.swift in Sources */,
+				CABEB6892A4B094D00258C60 /* Categories.swift in Sources */,
+				CABEB6862A4B094600258C60 /* NavStack.swift in Sources */,
+				CABEB67E2A4AF19900258C60 /* NewsListViewModel.swift in Sources */,
+				CABEB67F2A4AF19900258C60 /* NewsDetailsScreen.swift in Sources */,
+				CABEB6802A4AF19900258C60 /* DashboardScreen.swift in Sources */,
+				CABEB6722A4AF18800258C60 /* LinkView.swift in Sources */,
+				CABEB6702A4AF18800258C60 /* HeadlineView.swift in Sources */,
+				CABEB6712A4AF18800258C60 /* LoaderView.swift in Sources */,
+				CABEB6812A4AF19900258C60 /* SegmentedControlScreen.swift in Sources */,
 				CABEB6162A484D3800258C60 /* OTUSHomeWork02App.swift in Sources */,
+				CABEB6822A4AF19900258C60 /* ContentView.swift in Sources */,
+				CABEB6682A4AF17C00258C60 /* Anytransition+Ext.swift in Sources */,
+				CABEB6832A4AF19900258C60 /* NewsListScreen.swift in Sources */,
+				CABEB66F2A4AF18800258C60 /* NewsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +427,7 @@
 				DEVELOPMENT_TEAM = BPXP6739DN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OTUSHomeWork02/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,6 +456,7 @@
 				DEVELOPMENT_TEAM = BPXP6739DN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OTUSHomeWork02/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
