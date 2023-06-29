@@ -10,6 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
 
+    // MARK: - Properties
+
+    // MARK: - Body
+
     var body: some View {
         NavStack(
             transition: .custom(.moveAndFade),
@@ -19,6 +23,8 @@ struct ContentView: View {
         }
     }
 }
+
+// MARK: - Preview
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

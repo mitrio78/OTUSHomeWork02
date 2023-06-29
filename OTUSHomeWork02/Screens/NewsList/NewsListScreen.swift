@@ -9,7 +9,11 @@ import SwiftUI
 
 struct NewsListScreen: View {
 
+    // MARK: - Properties
+
     @EnvironmentObject var viewModel: NewsListViewModel
+
+    // MARK: - Body
 
     var body: some View {
         ZStack {
@@ -45,6 +49,8 @@ struct NewsListScreen: View {
         }
     }
 }
+
+// MARK: - Preview
 
 struct NewsListScreen_Previews: PreviewProvider {
     static var previews: some View {

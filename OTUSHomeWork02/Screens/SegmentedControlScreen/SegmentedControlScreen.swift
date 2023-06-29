@@ -9,7 +9,11 @@ import SwiftUI
 
 struct SegmentedControlScreen: View {
 
+    // MARK: - Properties
+
     @EnvironmentObject var viewModel: NewsListViewModel
+
+    // MARK: - Body
 
     var body: some View {
         VStack {
@@ -36,6 +40,8 @@ struct SegmentedControlScreen: View {
         }
     }
 }
+
+// MARK: - Preview
 
 struct SegmentedControlScreen_Previews: PreviewProvider {
     static var previews: some View {

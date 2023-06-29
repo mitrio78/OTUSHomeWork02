@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct OTUSHomeWork02App: App {
+
+    // MARK: - Body
+
     var body: some Scene {
         WindowGroup {
             ContentView().environmentObject(NewsListViewModel())

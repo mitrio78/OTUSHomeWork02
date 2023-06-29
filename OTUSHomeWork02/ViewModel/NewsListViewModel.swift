@@ -9,12 +9,22 @@ import MediaStackAPI
 import SwiftUI
 
 final class NewsListViewModel: ObservableObject {
+
+    // MARK: - Properties
     
     @Published var articles: [NewsListDataInner] = []
     @Published var loaderIsShowing: Bool = false
 
     @Published var canLoad: Bool = true
     @Published var isFinished: Bool = false
+
+    var currentCategory: NewsCategoryType = .sports {
+        didSet {
+            fetchNews()
+        }
+    }
+
+    // MARK: - Private Properties
 
     private var currentPage: Int = 1
     private lazy var todayDate: String = {
@@ -25,15 +35,13 @@ final class NewsListViewModel: ObservableObject {
         return format(stringDate: date.description, fromFormat: "yyyy-MM-dd HH:mm:ssZ", toFormat: "yyyy-MM-dd")
     }()
 
-    var currentCategory: NewsCategoryType = .sports {
-        didSet {
-            fetchNews()
-        }
-    }
+    // MARK: - Init
 
     init() {
         fetchNews()
     }
+
+    // MARK: - Methods
 
     func fetchNews() {
         guard canLoad else {
@@ -98,13 +106,10 @@ final class NewsListViewModel: ObservableObject {
     }
 }
 
+// MARK: - Private Methods
 
 fileprivate extension NewsListViewModel {
     enum Constants {
         static let apiKey: String = "afd65b8f8df64732b165791222039541" // "f556071334fe2d67eff332fe872b384f"
     }
-}
-
-extension NewsListDataInner: Identifiable {
-    public var id: String { self.url ?? "" }
 }

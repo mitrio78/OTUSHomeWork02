@@ -9,7 +9,11 @@ import SwiftUI
 
 struct LoaderView: View {
 
+    // MARK: - Properties
+
     @State private var animation: Double = 0.0
+
+    // MARK: - Body
 
     var body: some View {
         ZStack {

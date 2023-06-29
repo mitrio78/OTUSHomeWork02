@@ -9,6 +9,8 @@ import SwiftUI
 
 struct NewsCell: View {
 
+    // MARK: - Properties
+
     @State var isAnimate: Bool = false
     @State var secondAnimation: Bool = false
 
@@ -16,6 +18,8 @@ struct NewsCell: View {
     let description: String
     let date: String
     let action: () -> Void
+
+    // MARK: - Body
 
     var body: some View {
         HStack {
@@ -85,6 +89,8 @@ struct NewsCell: View {
         .padding()
     }
 }
+
+// MARK: - Preview
 
 struct NewsCell_Previews: PreviewProvider {
     static var previews: some View {
