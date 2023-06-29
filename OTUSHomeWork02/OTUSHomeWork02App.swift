@@ -11,7 +11,7 @@ import SwiftUI
 struct OTUSHomeWork02App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(NewsListViewModel())
         }
     }
 }
