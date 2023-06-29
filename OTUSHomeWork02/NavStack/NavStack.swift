@@ -22,9 +22,13 @@ final public class NavStackVM: ObservableObject {
     // MARK: - API
 
     func push<S: View>(_ screen: S) {
-        let screen: Screen = .init(id: UUID().uuidString,
-                                   nextScreen: AnyView(screen))
         navigationType = .push
+
+        let screen: Screen = .init(
+            id: UUID().uuidString,
+            nextScreen: AnyView(screen)
+        )
+
         withAnimation(easing) {
             screenStack.push(screen)
         }
@@ -77,9 +81,11 @@ public struct NavStack<Content>: View where Content: View {
         }
     }
 
-    public init(transition: NavTransition,
-                easing: Animation = .easeInOut(duration: 0.33),
-                @ViewBuilder content: @escaping ()->Content) {
+    public init(
+        transition: NavTransition,
+        easing: Animation = .easeInOut(duration: 0.33),
+        @ViewBuilder content: @escaping ()->Content
+    ) {
         self.content = content()
 
         switch transition {
@@ -89,7 +95,6 @@ public struct NavStack<Content>: View where Content: View {
             self.transitions = (.identity, .identity)
         }
     }
-
 }
 
 public struct NavButtonPush<Content, Destination>: View where Content: View, Destination: View {
@@ -193,7 +198,6 @@ private struct ScreenStack {
     // MARK: - Routing
 
     mutating func pushTo(id: String) {
-
+        //..
     }
-
 }

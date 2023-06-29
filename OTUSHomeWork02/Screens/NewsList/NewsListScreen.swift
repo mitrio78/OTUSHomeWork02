@@ -14,24 +14,14 @@ struct NewsListScreen: View {
     var body: some View {
         ZStack {
             VStack(alignment: .leading) {
-                
-                NavButtonPop(destination: .root) {
-                    HStack {
-                        Image(systemName: "arrow.backward.square")
-                        Text("Back to MAIN")
-                    }
-                    .font(.headline)
-                    .foregroundColor(Color(uiColor: .systemPink))
-                    .padding()
-                }
-
                 List {
                     ForEach(viewModel.articles, id: \.self) { article in
                         NavButtonPush(destination: NewsDetailsScreen(article: article)) {
                             NewsCell(
                                 header: article.title ?? "",
                                 description: article.description ?? "",
-                                date: viewModel.formatDate(article.publishedAt ?? "")
+                                date: viewModel.formatDate(article.publishedAt ?? ""),
+                                action: { }
                             )
                             .frame(height: 180)
                             .onAppear() {
@@ -40,6 +30,7 @@ struct NewsListScreen: View {
                                 }
                             }
                         }
+
                     }
                 }
                 .listStyle(.plain)

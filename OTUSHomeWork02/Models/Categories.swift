@@ -8,9 +8,9 @@
 import Foundation
 
 enum NewsCategoryType: String, CaseIterable {
-//    case general
-//    case business
-//    case entertainment
+    case general
+    case business
+    case entertainment
     case health
     case science
     case sports
