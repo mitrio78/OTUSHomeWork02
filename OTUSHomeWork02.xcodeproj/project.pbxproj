@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA9401392A4E1A50007FB060 /* NewsInnerModel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9401382A4E1A50007FB060 /* NewsInnerModel+Ext.swift */; };
 		CABEB6162A484D3800258C60 /* OTUSHomeWork02App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEB6152A484D3800258C60 /* OTUSHomeWork02App.swift */; };
 		CABEB61A2A484D3A00258C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABEB6192A484D3A00258C60 /* Assets.xcassets */; };
 		CABEB61D2A484D3A00258C60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABEB61C2A484D3A00258C60 /* Preview Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA9401382A4E1A50007FB060 /* NewsInnerModel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewsInnerModel+Ext.swift"; sourceTree = "<group>"; };
 		CABEB6122A484D3800258C60 /* OTUSHomeWork02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTUSHomeWork02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABEB6152A484D3800258C60 /* OTUSHomeWork02App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTUSHomeWork02App.swift; sourceTree = "<group>"; };
 		CABEB6192A484D3A00258C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			children = (
 				CABEB6662A4AF17C00258C60 /* AnyTransition+Ext.swift */,
 				CABEB6672A4AF17C00258C60 /* RandomAccessCollection+Ext.swift */,
+				CA9401382A4E1A50007FB060 /* NewsInnerModel+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				CABEB6722A4AF18800258C60 /* LinkView.swift in Sources */,
 				CABEB6702A4AF18800258C60 /* HeadlineView.swift in Sources */,
 				CABEB6712A4AF18800258C60 /* LoaderView.swift in Sources */,
+				CA9401392A4E1A50007FB060 /* NewsInnerModel+Ext.swift in Sources */,
 				CABEB6812A4AF19900258C60 /* SegmentedControlScreen.swift in Sources */,
 				CABEB6162A484D3800258C60 /* OTUSHomeWork02App.swift in Sources */,
 				CABEB6822A4AF19900258C60 /* ContentView.swift in Sources */,

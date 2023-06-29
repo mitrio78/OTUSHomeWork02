@@ -9,6 +9,10 @@ import SwiftUI
 
 struct DashboardScreen: View {
 
+    // MARK: - Properties
+
+    // MARK: - Body
+
     var body: some View {
         VStack {
             NavButtonPush(destination: SegmentedControlScreen()) {
@@ -22,6 +26,8 @@ struct DashboardScreen: View {
         }
     }
 }
+
+// MARK: - Preview
 
 struct DashboardScreen_Previews: PreviewProvider {
     static var previews: some View {

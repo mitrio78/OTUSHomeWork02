@@ -10,9 +10,13 @@ import SwiftUI
 
 struct NewsDetailsScreen: View {
 
+    // MARK: - Properties
+
     @EnvironmentObject var viewModel: NewsListViewModel
 
     let article: NewsListDataInner
+
+    // MARK: - Body
 
     var body: some View {
         VStack {
@@ -58,6 +62,8 @@ struct NewsDetailsScreen: View {
         .padding()
     }
 }
+
+// MARK: - Preview
 
 struct NewsDetailsScreen_Previews: PreviewProvider {
     static var previews: some View {

@@ -7,7 +7,11 @@
 
 import SwiftUI
 
+// MARK: - NavStackVM
+
 final public class NavStackVM: ObservableObject {
+
+    // MARK: - Properties
 
     @Published fileprivate var current: Screen?
     private var screenStack: ScreenStack = .init() {
@@ -51,6 +55,8 @@ final public class NavStackVM: ObservableObject {
 // MARK: - UI
 
 public struct NavStack<Content>: View where Content: View {
+
+    // MARK: - Properties
 
     @StateObject var viewModel: NavStackVM = .init()
 
@@ -99,6 +105,8 @@ public struct NavStack<Content>: View where Content: View {
 
 public struct NavButtonPush<Content, Destination>: View where Content: View, Destination: View {
 
+    // MARK: - Properties
+
     @EnvironmentObject var viewModel: NavStackVM
 
     private let content: Content
@@ -122,6 +130,8 @@ public struct NavButtonPush<Content, Destination>: View where Content: View, Des
 }
 
 public struct NavButtonPop<Content>: View where Content: View {
+
+    // MARK: - Properties
 
     @EnvironmentObject var viewModel: NavStackVM
 
@@ -167,6 +177,8 @@ public enum PopDestination {
 
 private struct Screen: Identifiable, Equatable {
 
+    // MARK: - Properties
+
     let id: String
     let nextScreen: AnyView
 
@@ -176,6 +188,8 @@ private struct Screen: Identifiable, Equatable {
 }
 
 private struct ScreenStack {
+
+    // MARK: - Properties
 
     private var screens: [Screen] = .init()
 
